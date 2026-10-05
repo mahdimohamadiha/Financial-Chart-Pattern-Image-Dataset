@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset in research, please cite it as specified below."
+type: dataset
+title: "Financial Chart Pattern Image Dataset"
+version: "1.0.0"
+date-released: 2026-10-05
+authors:
+  - family-names: "Mohammadiha"
+    given-names: "Mahdi"
+    email: "mahdi.mohammadiha@edu.ikiu.ac.ir"
+    affiliation: "Computer Engineering Department, Imam Khomeini International University, Qazvin, Iran"
+keywords:
+  - "financial chart patterns"
+  - "candlestick charts"
+  - "machine learning"
+  - "deep learning"
+  - "image classification"
+  - "Forex"
+  - "financial time series"
+  - "Double Top"
+  - "Double Bottom"
+  - "Head and Shoulders"
+  - "Inverse Head and Shoulders"
+abstract: >
+  A curated image dataset for financial chart-pattern recognition containing
+  1,200 224x224 candlestick chart images across four pattern classes:
+  Double Top, Double Bottom, Head and Shoulders, and Inverse Head and Shoulders.
+  The dataset was constructed from publicly available Forex time-series data
+  using rule-based detection algorithms followed by manual verification and curation.
+license: "All Rights Reserved"

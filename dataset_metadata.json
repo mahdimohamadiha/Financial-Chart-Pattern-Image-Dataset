@@ -1,0 +1,82 @@
+{
+  "dataset": {
+    "title": "Financial Chart Pattern Image Dataset",
+    "version": "1.0.0",
+    "release_date": "2026-10-05",
+    "status": "private_research_dataset",
+    "creator": {
+      "name": "Mahdi Mohammadiha",
+      "affiliation": "Computer Engineering Department, Imam Khomeini International University, Qazvin, Iran",
+      "emails": [
+        "mahdi.mohammadiha@edu.ikiu.ac.ir",
+        "m.mohamadiha81@gmail.com"
+      ]
+    },
+    "total_images": 1200,
+    "image_size": [
+      224,
+      224
+    ],
+    "classes": {
+      "Double Top": 300,
+      "Double Bottom": 300,
+      "Head and Shoulders": 300,
+      "Inverse Head and Shoulders": 300
+    },
+    "source_currency_pairs": [
+      "AUDCAD",
+      "AUDUSD",
+      "EURUSD",
+      "EURCAD",
+      "EURCHF",
+      "EURGBP",
+      "EURJPY",
+      "EURNZD",
+      "EURAUD",
+      "GBPAUD",
+      "GBPCAD",
+      "GBPCHF",
+      "GBPJPY",
+      "GBPUSD",
+      "NZDUSD",
+      "USDCAD",
+      "USDCHF",
+      "USDJPY"
+    ],
+    "source_timeframes": [
+      "1D",
+      "4H",
+      "1H",
+      "15M"
+    ],
+    "pair_timeframe_combinations": 72,
+    "chart_type": "candlestick",
+    "auxiliary_indicators": [],
+    "pattern_evaluation_basis": "primarily open and close price behavior; shadows/wicks are rendered but are not the primary pattern criterion",
+    "construction_method": [
+      "third-party Forex time-series CSV acquisition",
+      "rule-based algorithmic candidate detection",
+      "candlestick chart rendering",
+      "manual verification and curation"
+    ],
+    "programming_language": "Python",
+    "environment": "marimo",
+    "tools_and_libraries": [
+      "numpy",
+      "pandas",
+      "re",
+      "zipfile",
+      "dataclasses",
+      "pathlib",
+      "matplotlib",
+      "Pillow",
+      "scipy.signal.find_peaks"
+    ],
+    "raw_data_source": {
+      "name": "TheSnowGuru/Stocks-Futures-Financial-Time-series-Tick-Bar-Data",
+      "url": "https://github.com/TheSnowGuru/Stocks-Futures-Financial-Time-series-Tick-Bar-Data",
+      "license": "MIT"
+    },
+    "dataset_license": "All Rights Reserved"
+  }
+}
